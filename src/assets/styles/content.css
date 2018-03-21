@@ -1,0 +1,35 @@
+.content {
+  flex: 1;
+  padding: 2em 2em;
+}
+
+.content .search {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.content .search .search-bar {
+  flex: 1 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.content .search .search-bar .search-bar-input {
+  width: 100%;
+}
+
+.content .search .search-results {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.content .search .search-results .search-result-selected-item {
+  flex: 1 0 auto;
+}
+
+.content .search .search-results .search-result-item {
+  flex: 1 0 auto;
+}
